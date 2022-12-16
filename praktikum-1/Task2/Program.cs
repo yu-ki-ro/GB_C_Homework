@@ -4,6 +4,8 @@ a = 2 b = 10 -> max = 10
 a = -9 b = -3 -> max = -3  */
 using static System.Console;
 
+Clear();
+
 Write("Enter num a: ");
 int a = int.Parse(ReadLine()!);
 
