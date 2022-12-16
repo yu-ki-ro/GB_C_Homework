@@ -11,9 +11,9 @@ WriteLine("Enter num: ");
 float num = float.Parse(ReadLine()!);
 if (num % 2 == 1)
     {
-        WriteLine("Not even");
+        WriteLine("No");
     }
     else
     {
-        WriteLine("Even");
+        WriteLine("Yes");
     }
