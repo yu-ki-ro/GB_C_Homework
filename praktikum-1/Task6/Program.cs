@@ -8,7 +8,7 @@ using static System.Console;
 Clear();
 
 WriteLine("Enter num: ");
-float num = float.Parse(ReadLine()!);
+int num = int.Parse(ReadLine()!);
 if (num % 2 == 1)
     {
         WriteLine("No");
