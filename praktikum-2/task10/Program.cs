@@ -13,6 +13,7 @@ int num = int.Parse(ReadLine()!);
 if (100 <= num && num <= 999)
     {
         num = (num / 10) % 10;
+        WriteLine(num);
     }
     else 
     {
