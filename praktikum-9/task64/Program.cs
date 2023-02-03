@@ -9,8 +9,7 @@ int j = 8;
 double Fatorial (int n)
 {
     if (n==1) return 1;
-    else  return n * Fatorial(n-1);
-}
+    else  return n;
 for (int i = j; i != 0; i--)
 {
     Console.Write($"{i}!: ");
