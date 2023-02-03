@@ -13,6 +13,5 @@ double Fatorial (int n)
 }
 for (int i = j; i != 0; i--)
 {
-    Console.Write($"{i}!: ");
     Console.WriteLine(Fatorial(i));
 }
